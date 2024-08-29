@@ -5,9 +5,15 @@
 .popins {
     font-family: "Poppins", sans-serif;
 }
-.container{
-    max-width: 1440px !important;
+
+.position-relative {
+    position: relative;
 }
+
+.position-absolute {
+    position: absolute;
+}
+
 /* =========================1st-section ========================= */
 .nav-card {
     width: 100%;
@@ -38,25 +44,43 @@ nav {
 }
 
 .unshow-btn {
-    width: 254px;
+    width: 234px;
     height: 46px;
     padding: 11px 28px 11px 28px;
     border-radius: 23px;
     background: #2C49FE1A;
     border: none;
+    margin-left: 20px;
 }
 
 .unshow-btn:hover {
     background: #2C49FE;
     color: white;
 }
-.svg-1{
+
+.svg-1 {
     margin-right: 8px;
 }
-.svges{
+
+.svges {
     margin-left: 35px;
     margin-right: 8px;
 }
-.party-img{
-    padding-left: 100px;
+
+.Dictumst-box {
+    max-width: 857px !important;
 }
+
+/* ======================section-2========================== */
+.Semper-para-box {
+    max-width: 550px !important;
+    height: 232px;
+}
+
+.play-svg {
+    top: 43%;
+    left: 45%;
+
+}
+
+/* =======================section-3======================== */

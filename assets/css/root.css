@@ -12,6 +12,7 @@
     --color-darkblue: #2C49FE;
     --color-lightblue: #01C8FF;
     --color-black: #000000;
+    --color-lightgrey: #666666;
 }
 
 .fw-sm {
@@ -64,4 +65,8 @@
 
 .color-black {
     color: var(--color-black);
+}
+
+.color-lightgrey {
+    color: var(--color-lightgrey);
 }

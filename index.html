@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>festival-page</title>
+    <title>Bootstrap demo</title>
     <link rel="stylesheet" href="./assets/css/root.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <section>
+    <section class="min-vh-100">
         <div class="nav-card">
             <div class="container">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -42,18 +42,21 @@
                 </nav>
                 <div class="row">
                     <div class="col-5">
-                        <img class="party-img" src="/assets/image/party-pic.png" alt="party-pic">
+                        <img class="party-img pt-5" src="/assets/image/party-pic.png" alt="party-pic">
                     </div>
                     <div class="col-7">
-                        <p class="fw-sm fs-md popins">Home > Username</p>
+                        <p class="fw-sm fs-md popins pt-5">Home > Username</p>
                         <div class="d-flex">
                             <p class="fw-lg fs-2xl popins">Jhone Doe</p>
                             <button class="unshow-btn">Unshow Journey of Feed</button>
                             <button class="unshow-btn">Show Journey of Feed</button>
                         </div>
-                        <p>Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus gravida sed
-                            interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit
-                            vulputate in duis donec sit. Ut vitae dolor fringilla urna eget aliquet.</p>
+                        <div class="Dictumst-box">
+                            <p class="fw-sm fs-md popins ">Dictumst vulputate eget quisque iaculis hendrerit quis ut
+                                fringilla. Senectus gravida sed
+                                interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit
+                                vulputate in duis donec sit. Ut vitae dolor fringilla urna eget aliquet.</p>
+                        </div>
                         <div class="d-flex">
                             <div class="d-flex">
                                 <svg class="svg-1" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -67,7 +70,7 @@
                                             fill="black" />
                                     </g>
                                 </svg>
-                                <p>10/02/2022</p>
+                                <p class="fs-md fw-sm popins">10/02/2022</p>
                             </div>
                             <div class="d-flex">
                                 <svg class="svges" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -88,7 +91,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <p>Mumbai</p>
+                                <p class="fs-md fw-sm popins">Mumbai</p>
                             </div>
                             <div class="d-flex">
                                 <svg class="svges" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -119,7 +122,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <p>1,080</p>
+                                <p class="fs-md fw-sm popins">1,080</p>
                             </div>
                             <div class="d-flex">
                                 <svg class="svges" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -128,7 +131,7 @@
                                         d="M22.7104 4.71019C22.6174 4.80391 22.5068 4.87831 22.385 4.92908C22.2631 4.97985 22.1324 5.00598 22.0004 5.00598C21.8684 5.00598 21.7377 4.97985 21.6158 4.92908C21.4939 4.87831 21.3833 4.80391 21.2904 4.71019L21.0004 4.41019L14.9004 10.5202L12.0004 21.2602C11.9418 21.4783 11.811 21.6702 11.6295 21.8046C11.4479 21.939 11.2261 22.0079 11.0004 22.0002C10.7907 22.0007 10.5862 21.9354 10.4158 21.8133C10.2453 21.6913 10.1175 21.5188 10.0504 21.3202L8.21038 15.7902L2.68038 14.0002C2.4734 13.9306 2.29489 13.7952 2.1721 13.6146C2.04931 13.434 1.989 13.2183 2.00038 13.0002C1.99265 12.7744 2.06158 12.5527 2.19596 12.3711C2.33033 12.1895 2.52222 12.0588 2.74038 12.0002L13.4804 9.10019L19.5904 3.00019L19.2904 2.71019C19.1021 2.52188 18.9963 2.26649 18.9963 2.00019C18.9963 1.73388 19.1021 1.47849 19.2904 1.29019C19.4787 1.10188 19.7341 0.996094 20.0004 0.996094C20.2667 0.996094 20.5221 1.10188 20.7104 1.29019L22.7104 3.29019C22.8041 3.38315 22.8785 3.49375 22.9293 3.61561C22.98 3.73747 23.0062 3.86817 23.0062 4.00019C23.0062 4.1322 22.98 4.2629 22.9293 4.38476C22.8785 4.50662 22.8041 4.61722 22.7104 4.71019Z"
                                         fill="#666666" />
                                 </svg>
-                                <p>1,080</p>
+                                <p class="fs-md fw-sm popins">1,080</p>
                             </div>
                             <div class="d-flex">
                                 <svg class="svges" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -140,7 +143,7 @@
                                         d="M16.5752 10.5C16.3502 10.5 16.2002 10.65 16.2002 10.875V13.125C16.2002 13.35 16.3502 13.5 16.5752 13.5C16.8002 13.5 16.9502 13.35 16.9502 13.125V10.875C16.9502 10.65 16.7627 10.5 16.5752 10.5Z"
                                         fill="#666666" />
                                 </svg>
-                                <p>1,080</p>
+                                <p class="fs-md fw-sm popins">1,080</p>
                             </div>
                         </div>
                     </div>
@@ -148,6 +151,61 @@
             </div>
         </div>
     </section>
+    <!-- =================section-2==================== -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="section-2-card">
+                        <svg width="118" height="118" viewBox="0 0 118 118" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M50.9833 10.3591C30.0734 11.8284 0.0165176 15.1668 0 56.1179V107.642H46.6596V52.515H31.1663C30.1849 37.7952 42.3059 33.9943 55.4869 31.0766L50.9833 10.3591ZM113.496 10.3591C92.5861 11.8284 62.5293 15.167 62.5129 56.1179V107.642H109.173V52.515H93.6793C92.6978 37.7951 104.819 33.9942 118 31.0765L113.496 10.3591Z"
+                                fill="#2C49FE" />
+                        </svg>
+                        <p class="Semper-para-box fw-sm fs-md popins color-lightgrey pt-4">Semper faucibus suscipit ultricies
+                            eleifend semper sit tellus gravida
+                            pretium. Cras cursus ut
+                            semper eleifend tortor lectus tristique turpis. Laoreet amet ultrices est lectus accumsan
+                            nibh
+                            cursus nunc. Faucibus orci, neque, pretium, massa volutpat convallis nisl pellentesque.
+                            Gravida
+                            in ultrices vitae tortor. Dignissim viverra volutpat neque gravida aliquet urna faucibus
+                            viverra
+                            vulputate. nibh cursus nunc. Faucibus orci, neque, pretium, massa volutpat convallis nisl
+                            pellentesque. Gravida in ultrices vitae tortor. Dignissim viverra volutpat neque gravida
+                            aliquet
+                            urna faucibus viverra vulputate.</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="position-relative">
+                        <div class="image">
+                            <img class="w-100" src="/assets/image/wight-party-pic.png" alt="">
+                        </div>
+                        <div class="position-absolute play-svg">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M32 5C46.888 5 59 17.112 59 32C59 46.888 46.888 59 32 59C17.112 59 5 46.888 5 32C5 17.112 17.112 5 32 5ZM32 2C15.433 2 2 15.432 2 32C2 48.568 15.433 62 32 62C48.567 62 62 48.568 62 32C62 15.432 48.567 2 32 2Z"
+                                    fill="white" />
+                                <path
+                                    d="M43.987 28.7452L28.013 18.2322C25.256 16.4182 23 17.6352 23 20.9352V43.0602C23 46.3602 25.259 47.5812 28.021 45.7742L43.98 35.3302C46.741 33.5212 46.744 30.5592 43.987 28.7452ZM41.858 33.1242L27.673 42.4072C26.753 43.0102 26 42.6032 26 41.5032V22.4912C26 21.3912 26.752 20.9862 27.671 21.5912L41.861 30.9292C42.78 31.5332 42.779 32.5212 41.858 33.1242Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- =================section-3==================== -->
+     <section>
+        <div class="container">
+        
+        </div>
+     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
