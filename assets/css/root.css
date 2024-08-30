@@ -3,12 +3,14 @@
     --fw-md: 500;
     --fw-lg: 600;
     --fw-xl: 700;
+    --fs-sm-1: 12px;
     --fs-sm: 14px;
     --fs-md: 16px;
     --fs-lg: 20px;
     --fs-xxl: 24px;
     --fs-xl: 36px;
     --fs-2xl: 48px;
+    --color-white: white;
     --color-darkblue: #2C49FE;
     --color-lightblue: #01C8FF;
     --color-black: #000000;
@@ -29,6 +31,10 @@
 
 .fw-xl {
     font-weight: var(--fw-xl);
+}
+
+.fs-sm-1 {
+    font-size: var(--fs-sm-1);
 }
 
 .fs-sm {
@@ -69,4 +75,8 @@
 
 .color-lightgrey {
     color: var(--color-lightgrey);
+}
+
+.color-white {
+    color: var(--color-white);
 }

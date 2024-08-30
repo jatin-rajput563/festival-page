@@ -12,6 +12,44 @@
     position: absolute;
 }
 
+.mt-13 {
+    margin-top: 13px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.ml-80 {
+    margin-left: 80px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+
+* {
+    text-decoration: none !important;
+
+}
+
 /* =========================1st-section ========================= */
 .nav-card {
     width: 100%;
@@ -75,9 +113,12 @@ nav {
 }
 
 .play-svg {
-    top: 43%;
-    left: 45%;
-
+    top: 36%;
+    left: 51%;
+}
+.image{
+    margin-top: 45px;
+    padding-left: 59px;
 }
 
 /* =======================section-3======================== */
@@ -186,8 +227,73 @@ nav {
 .Dictumst-vulputate {
     padding-left: 10px;
 }
-.remove-box{
+
+.remove-box {
     padding-left: 100px;
     margin-top: 8px;
     gap: 7px;
+}
+.seventh-comment{
+    padding-bottom: 118px;
+}
+/* ================================section-5============================== */
+.footer-text {
+    font-family: "Poppins", sans-serif;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    max-width: 346px;
+}
+
+
+.col-3-head {
+    font-family: "Poppins", sans-serif;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffffff;
+}
+
+.col-3-text {
+    margin-top: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.show {
+    height: 80.9%;
+    background: #2D3CAE87;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.gallery {
+    margin-top: 60px;
+    margin-bottom: 24px;
+}
+
+.show:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.credits {
+    color: white;
+    margin-top: 70px;
+    padding-bottom: 25px;
+}
+
+.in {
+    display: none;
+}
+
+.icon-line {
+    width: 35px;
+    height: 3px;
+    gap: 5px;
+    background-color: white;
 }
