@@ -12,6 +12,10 @@
     position: absolute;
 }
 
+.curser-pointer {
+    cursor: pointer;
+}
+
 .mt-10 {
     margin-top: 10px;
 }
@@ -44,10 +48,8 @@
     padding-top: 60px;
 }
 
-
 * {
     text-decoration: none !important;
-
 }
 
 /* =========================1st-section ========================= */
@@ -69,15 +71,14 @@ nav {
     padding: 11px 28px 11px 28px;
     border-radius: 23px;
     border: none;
-    background: #2C49FE;
+    background-color: #2C49FE;
     color: white;
+    transition: transition 5s;
     border: 2px solid #2C49FE;
-    border-color: #2C49FE;
 }
 
 .Log-Out-btn:hover {
-    background-color: white;
-    color: #2C49FE;
+    transform: scale(1.1);
 }
 
 .unshow-btn {
@@ -111,6 +112,14 @@ nav {
     max-width: 857px !important;
 }
 
+.nav-link {
+    transition: transition 5s;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
 /* ======================section-2========================== */
 .Semper-para-box {
     max-width: 550px !important;
@@ -132,6 +141,11 @@ nav {
 
 .grid-img {
     overflow: hidden;
+    transition: transition 5s;
+}
+
+.grid-img:hover {
+    transform: scale(1.01);
 }
 
 .grid-item-1 {
@@ -220,7 +234,7 @@ nav {
     border-radius: 0px 0px 20px 20px;
     background: #F1F2F5;
     margin-left: 20px;
-
+    cursor: pointer;
 }
 
 .Username-para {
